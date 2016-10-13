@@ -1,0 +1,65 @@
+#app {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+}
+
+.data-cell {
+  text-align: center;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  width: 75px;
+}
+
+.data-cell__addr {
+  width: 100%;
+  font-size: 14px;
+  border-top: 1px solid #999;
+  color: #999;
+}
+
+.data-cell__value {
+  width: 100%;
+  font-size: 20px;
+}
+
+.data-cell--active {
+  background: rgba(0,255,0,0.2);
+}
+
+.active-token {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.source {
+  margin: 30px 0 30px 0;
+  width: 100%;
+}
+
+.step-index {
+  margin: 0 10px 0 10px;
+}
+
+.step-label,
+.data-label,
+.stdout-label {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+
+.source-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.play-speed-label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
